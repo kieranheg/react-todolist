@@ -25,6 +25,7 @@ class TodoList extends Component {
       });
 
       this._inputElement.value = "";
+      this._inputElement.focus();
     }
 
     console.log(itemArray);
